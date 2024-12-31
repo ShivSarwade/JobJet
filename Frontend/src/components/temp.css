@@ -1,0 +1,803 @@
+/* gets all fonts like roboto poppins and comfortaa */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --logo-font: 'Comfortaa',serif;
+    --primary-font: 'Poppins',serif;
+    --primary-text-color: #000000;
+    --primary-color: #0059CE;
+    /* --primary-color: #0059CE; */
+    /* --accent-color: #0da34ef1; */
+    --accent-color: #ef4d36;
+    --primary-background-color:#F7FEFF;
+    --nav-background-color: white;
+    --accent-text-color: white;
+    --dark-mode-bg-color: #0a192f;
+    --text-color: var(--primary-text-color);
+    --background-color:var(--primary-background-color);
+    --nav-height:4rem;
+    --section-bg-color: rgb(224, 239, 242);
+    --dark-section-bg-color: #273e68;
+
+}
+
+body{
+    font-family: 'Poppins',serif;
+    background-color: var(--background-color);
+    width:100%;
+    overflow-x: hidden;
+}
+
+/* NAVIGATION BAR */
+nav{
+    width: 100%;
+    height: var(--nav-height);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 1rem;
+    padding: 0.5rem 3rem;
+    background-color: var(--nav-background-color);
+    box-shadow: 0px 15px 15px var(--section-bg-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.login {
+    color: var(--accent-color);
+    background: var(--background-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 1.5rem;
+    padding: 0.7rem 1.4rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+}
+  
+.login:hover {
+    background: var(--accent-color);
+    color: var(--background-color);
+}
+
+.signup {
+    border: 2px solid var(--accent-color);
+    border-radius: 1.5rem;
+    padding: 0.7rem 1.4rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 550;
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-background-color);
+    background: var(--accent-color);
+}
+  
+.signup:hover {
+    background: var(--background-color);
+    color: var(--accent-color);
+}
+.left-container{
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+.right-container{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.logo-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    gap: 0.2rem;  
+}
+.logo{
+    height: 100%;
+}
+.brand-name{
+    font-size: 1.5rem;    
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    color: var(--primary-color);
+
+}
+.menu{
+    aspect-ratio: 1/1;
+    display: none;
+    height: 100%;
+    cursor: pointer;
+    font-size:1.5rem;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.menu:hover{
+    color: var(--primary-color);
+    background-color: var(--section-bg-color);
+}
+.close-menu{
+    aspect-ratio: 1/1;
+    width: max-content;
+    display: flex;
+    height: min-content;
+    cursor: pointer;
+    font-size:1.5rem;
+    border-radius: 50%;
+    align-items: center;
+    border-radius: 50% ;
+    justify-content: center;
+    padding: 0.5vw;
+    transition: 0.6s!important;
+
+}
+.close-menu:hover{
+    color: var(--primary-background-color);
+    background-color: var(--dark-section-bg-color);
+}
+.menu-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem 2rem 2rem;
+    width: 75vw;
+    height: 100vh;
+    background-color: var(--dark-mode-bg-color);
+    position:fixed;
+    right: -100%;
+    top: 0;
+    border-top-left-radius: 1.5rem;
+    gap: 1rem;
+    transition: 0.2s;
+    z-index: 1;
+}
+.menu-container>*{
+    color: var(--primary-background-color);
+    display: flex;
+    align-items:center;
+    gap: 0.5rem;
+    transition: 0.2s;
+}
+.menu-container>a:hover{
+    color: var(--accent-color);
+    transform: translateX(1%);
+}
+.menu-container>a>i{
+    width:4vw;
+}
+/* Main Section */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    /* height: calc(100vh - var(--nav-height)); */
+}
+.section
+{
+    width: 100%;
+    height: calc(100vh - var(--nav-height));
+    display: flex;
+    
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 3rem ;
+}
+.section-text{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.section-text >.text >h2{
+    font-size: 3rem;
+} 
+.section-text > .text > h2 > span{
+    color: var(--primary-color);
+}
+.section-image{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-image img
+{   width: 100%;
+    object-fit: contain;
+}
+.section2 .section-image img{
+   height: 100% !important; 
+   object-fit: contain !important;
+}
+
+.hero-btn { 
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    width: max-content;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--accent-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins',sans-serif;
+}
+  
+  .hero-btn .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-btn .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--accent-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  .hero-btn .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  .hero-btn:hover {
+    background-color: var(--hover-color);
+  }
+  
+  .hero-btn:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  .hero-btn:hover .arrow:before {
+    right: 0;
+  }
+
+  /* section3 */
+.company-section{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+.company-section-text
+{
+    width: 100%;
+    font-size: 2rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+.company-section-text > h2 > span{
+    color: var(--accent-color);
+}
+.company-section-text > .brand{
+    color: var(--primary-color);
+    /* font-size: 2rem; */
+}
+.company-logo-container img
+{
+  width: 100%;  
+  object-fit: cover;
+}
+.company-logo-container 
+{
+    border-radius: 0.3rem;
+    place-content: center;
+    padding: 0 2em;
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+}
+
+.company-partner-section
+{
+    display:grid;
+    grid-template-columns: repeat(6,auto);
+    gap: 3vw;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    padding: 3vw;
+    
+}
+
+
+/* footer section */
+footer{
+    display: flex;
+    height: max-content;
+    padding: 2.5rem 3rem;
+    gap: 1rem;
+    box-shadow: 0px -10px 10px var(--section-bg-color) ;
+}
+footer>*{
+    width: 25%;
+}
+.company-info-container{
+    display :flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
+}
+.company-info-container>*{
+    padding: 0.5rem;
+}
+.company-info-container>.logo-container{
+    height: var(--nav-height);
+    margin: 0;
+}
+.social-media-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.4rem;
+}
+.connect-us{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: center;
+}
+.socials{
+    aspect-ratio: 1/1;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--section-bg-color);
+    
+}
+.socials:hover{
+   color: var(--primary-background-color);
+   background-color: var(--primary-color);
+}
+
+.dropdown-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    transition: 0.2s;
+}
+.dropdown-heading{
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 0;
+}
+.dropdown-links{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.dropdown-heading i{
+    display: none;
+    transition: 0.3s;
+}
+
+
+/* nav and main*/
+@media (min-width:450px) and (max-width: 700px){
+    /* NAVIGATION BAR */
+    nav{
+        padding-inline: 2.5vw;
+        gap: 1.5vw; 
+    }
+    .logo-container{
+        margin: 0;
+    }
+    .right-container{
+        gap: 1.5vw;
+    }
+    .jobs-page{
+        display: none;
+    }
+    .for-recruiters{
+        display: none;
+    }
+    .menu{
+        display:flex;
+        padding-inline: 1vw;
+    }
+    .signup,.login{
+        display: none;
+    }
+    .logo{
+        height: 90%;
+    }
+    .brand-name{
+        font-size: 1.4rem;
+    }
+   
+    /* main media queries */
+    main{
+        gap: 1.5vw;
+    }
+    .section{
+        padding: 6vw 3vw;
+        height: max-content;
+    }
+    .section1>*{
+        width: 50%;
+    }
+    .section-text{
+        gap: 3vw;
+    }
+    .section-text >.text >h2{
+        font-size: 4.3vw;
+    }
+    .section-text > .text > h3{
+        font-size: 2vw;
+    }
+    .hero-btn{
+        --arrow-width:2vw;
+        font-size: 1.8vw;
+        padding: 1.4vw 2.5vw ;
+    }
+    
+    /* company section */
+    .company-section-text{
+        padding: 1vw 2vw;
+        font-size: 4vw;
+    }
+    .company-partner-section
+    {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 2rem;
+        grid-template-rows: repeat(6,auto);
+        padding: 2rem;
+    }
+    .dropdown-heading i{
+        display: block;
+    }
+}
+
+@media (min-width:300px) and (max-width: 450px){
+    /* NAVIGATION BAR */
+    nav{
+        padding-inline: 2.5vw;
+        gap: 1.5vw; 
+    }
+    .logo-container{
+        margin: 0;
+    }
+    .right-container{
+        gap: 1.5vw;
+    }
+    .jobs-page{
+        display: none;
+    }
+    .for-recruiters{
+        display: none;
+    }
+    .menu{
+        display:flex;
+        padding-inline: 1vw;
+    }
+    .signup,.login{
+       display: none;
+    }
+    .logo{
+        height: 90%;
+    }
+    .brand-name{
+        font-size: 1.4rem;
+    }
+    /* main section */
+    main{
+        gap: 1.5vw;
+    }
+    .section{
+        padding: 6vw 3vw;
+        height: max-content;
+    }
+    .section1>*{
+        width: 50%;
+    }
+    .section-text{
+        gap: 3vw;
+    }
+    .section-text >.text >h2{
+        font-size: 4.3vw;
+    }
+    .section-text > .text > h3{
+        font-size: 2vw;
+    }
+    .hero-btn{
+        --arrow-width:2vw;
+        font-size: 1.8vw;
+        padding: 1.4vw 2.5vw ;
+    }
+    
+    /* company section */
+    .company-section-text{
+        font-size: 4vw;
+        padding: 0 1rem;
+    }
+    
+    .company-partner-section
+    {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 4vw;
+        grid-template-rows: repeat(6,auto);
+        padding: 4vw;
+    }
+     /* footer section  */
+     footer{
+        flex-direction: column;
+        padding: 3vw 2.5vw ;
+    }
+    footer>*{
+        width: 100%;
+    }
+    .company-info-container{
+        flex-direction: row;
+        align-items: center;        
+        justify-content: space-between;
+        gap: 8vw;
+    }
+    .connect-us{
+        display: none;
+    }
+    .dropdown-container{
+        gap: 0;
+        overflow: hidden;
+    }
+    .dropdown-heading{
+        border-bottom: 1px solid black;
+        padding: 0 1rem 0 0.5rem;
+    }
+    .dropdown-links{
+        height: 0px;
+        padding-left: 0.5rem;
+    }
+    .social-media-container{
+        font-size: 1rem;
+    }
+    .socials{
+        width: 5vw;
+    }
+    .company-info-container>.logo-container>.logo{
+        height: 70%;
+    }
+    .company-info-container>.logo-container>.brand-name{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .dropdown-heading{
+        font-size: 5vw;
+    }
+    .dropdown-links{
+        font-size: 4vw;
+    }
+    .dropdown-heading i{
+        display: block;
+    }
+} 
+@media (max-width: 300px){
+    
+    /* NAVIGATION BAR */
+    nav{
+        padding-inline: 2.5vw;
+        gap: 1.5vw; 
+        height: calc(var(--nav-height) / 1.3);
+    }
+    .logo-container{
+        margin: 0;
+    }
+    .right-container{
+        gap: 1.5vw;
+    }
+    .jobs-page{
+        display: none;
+    }
+    .for-recruiters{
+        display: none;
+    }
+    .menu{
+        display:flex;
+        font-size: 7vw;
+        padding-inline: 1vw;
+    }
+    .signup,.login{
+       display: none;
+    }
+    .logo{
+        height: 90%;
+    }
+    .brand-name{
+        font-size: 7vw;
+    }
+    .menu-container{
+        padding: 8vw 4vw 8vw 8vw;
+    }
+    .menu-container>*{
+        font-size:  5.5vw;
+    }
+    .menu-container>a>i{
+        width:4vw;
+    }
+    .close-menu{
+        font-size: 7vw;
+    }
+    .menu-container>a>i{
+        width:6vw;
+    }
+    /* Main section */
+    main{
+        --new-nav-height:calc(var(--nav-height) / 1.3);
+        height: calc(100vh - var(--new-nav-height));
+    }
+    
+     /* footer section  */
+     footer{
+        flex-direction: column;
+        padding: 3vw 2.5vw ;
+        gap: 5vw;
+    }
+    footer>*{
+        width: 100%;
+    }
+    .company-info-container{
+        flex-direction: row;
+        align-items: center;        
+        justify-content: space-between;
+        gap: 8vw;
+        padding: 1vw;
+    }
+    .connect-us{
+        display: none;
+    }
+    .dropdown-container{
+        gap: 0;
+        overflow: hidden;
+    }
+    .dropdown-heading{
+        border-bottom: 1px solid black;
+        padding: 0 1rem 0 0.5rem;
+    }
+    .dropdown-links{
+        height: 0px;
+        padding-left: 0.5rem;
+    }
+    .social-media-container{
+        font-size: 4vw;
+        gap: 2vw;
+    }
+    .socials{
+        width: 5vw;
+    }
+    .company-info-container>.logo-container{
+        height: fit-content
+    }
+    .company-info-container>.logo-container>.logo{
+        height: 7vw;
+    }
+    .company-info-container>.logo-container>.brand-name{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .dropdown-heading{
+        font-size: 5vw;
+    }
+    .dropdown-links{
+        font-size: 4vw;
+    }
+    .dropdown-heading i{
+        display: block;
+    }
+}
+/* Footer Media Query */
+@media (min-width:450px) and (max-width:900px){
+    /* main section */
+    main{
+        gap: 1rem;
+    }
+    .section{
+        height: max-content;
+    }
+    
+    /* footer section  */
+    footer{
+        flex-direction: column;
+        padding: 3vw 2.5vw ;
+    }
+    footer>*{
+        width: 100%;
+    }
+    .company-info-container{
+        flex-direction: row;
+        align-items: center;        
+        justify-content: space-between;
+    }
+    .connect-us{
+        display: none;
+    }
+    .dropdown-container{
+        gap: 0;
+        overflow: hidden;
+    }
+    .dropdown-heading{
+        border-bottom: 1px solid black;
+        padding: 0 1rem 0 0.5rem;
+    }
+    .dropdown-links{
+        height: 0px;
+        padding-left: 0.5rem;
+    }
+    .dropdown-heading i{
+        display: block;
+    }
+}
+/* company section */
+@media (min-width:700px) and (max-width:900px){
+    /* company section */
+    .company-section-text{
+        font-size: 3.5vw;
+        padding: 1vw 2vw;
+    }
+    .company-partner-section
+    {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        column-gap: 16vw;
+        row-gap: 8vw;
+        grid-template-rows: repeat(6,auto);
+        padding: 10vw;
+    }
+    .dropdown-heading i{
+        display: block;
+    }
+
+}

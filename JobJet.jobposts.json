@@ -1,0 +1,522 @@
+[{
+  "_id": {
+    "$oid": "670502669d9f4dff13520756"
+  },
+  "jobPostName": "Software Engineer",
+  "jobPostDescription": "We are looking for a passionate Software Engineer to join our dynamic team.",
+  "jobPostAddress": "123 Tech Lane, Silicon Valley, CA",
+  "jobPostSkill": [
+    "JavaScript",
+    "React",
+    "Node.js",
+    "MongoDB"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 70000,
+  "jobPostMaxSalary": 100000,
+  "jobPostMode": "hybrid",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "bachelor's",
+  "jobPostVacancies": 5,
+  "createdAt": {
+    "$date": "2024-10-08T09:59:02.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-08T09:59:02.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "6707a8581301317ed964a472"
+  },
+  "jobPostName": "Data Scientist",
+  "jobPostDescription": "We are looking for a Data Scientist to analyze and interpret complex data to help companies make data-driven decisions.",
+  "jobPostAddress": "456 Data Drive, New York, NY",
+  "jobPostSkill": [
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "Data Visualization"
+  ],
+  "jobPostCompany": {
+    "$oid": "5a57c7a6e4b0f34a9c0f8a1e"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 90000,
+  "jobPostMaxSalary": 120000,
+  "jobPostMode": "remote",
+  "jobPostLevel": "mid-level",
+  "jobPostQualification": "master's",
+  "jobPostVacancies": 3,
+  "createdAt": {
+    "$date": "2024-10-09T10:30:45.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-09T10:30:45.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "6707a8601301317ed964a474"
+  },
+  "jobPostName": "Product Manager",
+  "jobPostDescription": "As a Product Manager, you will be responsible for driving the strategy, development, and success of our products.",
+  "jobPostAddress": "789 Business Blvd, San Francisco, CA",
+  "jobPostSkill": [
+    "Product Management",
+    "Agile",
+    "Leadership",
+    "Market Research"
+  ],
+  "jobPostCompany": {
+    "$oid": "4f92b14d68b3e22b9b6b2a2f"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 110000,
+  "jobPostMaxSalary": 140000,
+  "jobPostMode": "hybrid",
+  "jobPostLevel": "senior-level",
+  "jobPostQualification": "bachelor's",
+  "jobPostVacancies": 2,
+  "createdAt": {
+    "$date": "2024-10-08T12:45:23.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-08T12:45:23.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "6707a86c1301317ed964a476"
+  },
+  "jobPostName": "Graphic Designer",
+  "jobPostDescription": "We are seeking a creative and talented Graphic Designer to create visual content for our marketing campaigns.",
+  "jobPostAddress": "101 Creative Lane, Los Angeles, CA",
+  "jobPostSkill": [
+    "Adobe Photoshop",
+    "Illustrator",
+    "Typography",
+    "UX/UI Design"
+  ],
+  "jobPostCompany": {
+    "$oid": "7d35f8a2d4b8d8b1a8b1234e"
+  },
+  "jobPostType": "parttime",
+  "jobPostMinSalary": 40000,
+  "jobPostMaxSalary": 60000,
+  "jobPostMode": "remote",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "associate's",
+  "jobPostVacancies": 4,
+  "createdAt": {
+    "$date": "2024-10-07T15:22:11.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-07T15:22:11.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "6707a8751301317ed964a478"
+  },
+  "jobPostName": "Marketing Specialist",
+  "jobPostDescription": "We are looking for a Marketing Specialist to develop and execute marketing strategies to promote our products and services.",
+  "jobPostAddress": "123 Market Street, Chicago, IL",
+  "jobPostSkill": [
+    "SEO",
+    "Social Media Marketing",
+    "Google Analytics",
+    "Content Marketing"
+  ],
+  "jobPostCompany": {
+    "$oid": "53b7e973b2f29f1b4e1b5d2f"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 60000,
+  "jobPostMaxSalary": 90000,
+  "jobPostMode": "on-site",
+  "jobPostLevel": "junior-level",
+  "jobPostQualification": "bachelor's",
+  "jobPostVacancies": 2,
+  "createdAt": {
+    "$date": "2024-10-10T11:10:33.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-10T11:10:33.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "6707a87f1301317ed964a47a"
+  },
+  "jobPostName": "DevOps Engineer",
+  "jobPostDescription": "As a DevOps Engineer, you will work on automation, deployment, and system reliability to support our development teams.",
+  "jobPostAddress": "432 Cloud Avenue, Austin, TX",
+  "jobPostSkill": [
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Linux"
+  ],
+  "jobPostCompany": {
+    "$oid": "45f9eaf3d2a19b8d7c6dffeb"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 80000,
+  "jobPostMaxSalary": 110000,
+  "jobPostMode": "hybrid",
+  "jobPostLevel": "mid-level",
+  "jobPostQualification": "bachelor's",
+  "jobPostVacancies": 3,
+  "createdAt": {
+    "$date": "2024-10-05T08:40:02.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-05T08:40:02.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "6708a7b7a245ff4467409a7b"
+  },
+  "jobPostName": "Frontend Developer",
+  "jobPostDescription": "We are seeking a skilled Frontend Developer to join our team and create engaging user interfaces.",
+  "jobPostAddress": "234 Code St, San Jose, CA",
+  "jobPostSkill": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 75000,
+  "jobPostMaxSalary": 95000,
+  "jobPostMode": "hybrid",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "bachelor's",
+  "jobPostVacancies": 3,
+  "createdAt": {
+    "$date": "2024-10-11T10:00:00.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-11T10:00:00.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "6708a7b7a245ff4467409a7c"
+  },
+  "jobPostName": "Systems Analyst",
+  "jobPostDescription": "We are looking for a Systems Analyst to help improve our IT systems and processes.",
+  "jobPostAddress": "567 Tech Ave, Boston, MA",
+  "jobPostSkill": [
+    "Analysis",
+    "SQL",
+    "Problem Solving"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 70000,
+  "jobPostMaxSalary": 90000,
+  "jobPostMode": "remote",
+  "jobPostLevel": "mid-level",
+  "jobPostQualification": "bachelor's",
+  "jobPostVacancies": 2,
+  "createdAt": {
+    "$date": "2024-10-12T10:30:00.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-12T10:30:00.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "6708a7b7a245ff4467409a7d"
+  },
+  "jobPostName": "Network Administrator",
+  "jobPostDescription": "We are looking for a Network Administrator to maintain and optimize our network infrastructure.",
+  "jobPostAddress": "890 Network Rd, Denver, CO",
+  "jobPostSkill": [
+    "Networking",
+    "Firewall",
+    "Troubleshooting"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 65000,
+  "jobPostMaxSalary": 85000,
+  "jobPostMode": "on-site",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "associate's",
+  "jobPostVacancies": 4,
+  "createdAt": {
+    "$date": "2024-10-13T11:00:00.111Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-13T11:00:00.111Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "670c8eaea074339963bb3474"
+  },
+  "jobPostName": "Software Engineer",
+  "jobPostDescription": "<h3>About Us:</h3>\n<p>[Company Name] is an innovative tech company that [brief description of what the company does, its mission, and core values]. We are passionate about creating cutting-edge software solutions that solve real-world problems and improve the lives of our users. We are looking for talented software engineers to join our dynamic team and contribute to building exceptional products.</p>\n<hr>\n<h3>Job Overview:</h3>\n<p>As a Software Engineer at [Company Name], you will be responsible for designing, developing, and maintaining software applications that deliver high-quality solutions. You will work in a collaborative and agile environment, partnering with cross-functional teams to build reliable, scalable, and efficient systems. Your contributions will directly impact our product offerings and user experiences.</p>\n<h3>Key Responsibilities:</h3>\n<ul>\n<li><strong>Software Development:</strong> Design, code, test, and debug software applications, ensuring they are scalable, maintainable, and secure.</li>\n<li><strong>Collaborative Problem-Solving:</strong> Work closely with other engineers, product managers, designers, and quality assurance teams to deliver high-quality software solutions.</li>\n<li><strong>Code Review &amp; Best Practices:</strong> Participate in peer code reviews, provide constructive feedback, and promote adherence to best practices in software development.</li>\n<li><strong>Agile Processes:</strong> Actively participate in agile development processes, including sprint planning, stand-ups, and retrospectives.</li>\n<li><strong>Performance Optimization:</strong> Identify performance bottlenecks and provide solutions to ensure applications run efficiently at scale.</li>\n<li><strong>Documentation:</strong> Create and maintain technical documentation, including design specifications and user guides, to support codebase maintenance and team collaboration.</li>\n<li><strong>Continuous Learning:</strong> Stay up-to-date with emerging technologies, development tools, and industry trends to enhance your skills and improve software quality.</li>\n</ul>\n<h3>Required Qualifications:</h3>\n<ul>\n<li><strong>Education:</strong> Bachelor&rsquo;s degree in Computer Science, Engineering, or related field (or equivalent practical experience).</li>\n<li><strong>Experience:</strong> 2+ years of professional experience in software development or a related field.</li>\n<li><strong>Programming Languages:</strong> Proficiency in at least one or more programming languages (e.g., Java, Python, JavaScript, C#, Go, etc.).</li>\n<li><strong>Software Engineering Skills:</strong> Strong understanding of algorithms, data structures, and object-oriented design principles.</li>\n<li><strong>Version Control:</strong> Experience with version control systems like Git or SVN.</li>\n<li><strong>Database Experience:</strong> Knowledge of relational and/or NoSQL databases (e.g., MySQL, PostgreSQL, MongoDB).</li>\n<li><strong>Web Development (optional):</strong> Familiarity with front-end frameworks (e.g., React, Angular, Vue.js) or back-end frameworks (e.g., Node.js, Spring, .NET) is a plus.</li>\n<li><strong>Problem-Solving:</strong> Strong analytical skills with the ability to approach complex problems methodically and develop effective solutions.</li>\n</ul>\n<h3>Preferred Qualifications:</h3>\n<ul>\n<li><strong>Cloud Technologies:</strong> Experience with cloud platforms (e.g., AWS, Azure, Google Cloud) and containerization technologies (e.g., Docker, Kubernetes).</li>\n<li><strong>DevOps Practices:</strong> Familiarity with continuous integration/continuous deployment (CI/CD) pipelines and automation tools (e.g., Jenkins, CircleCI).</li>\n<li><strong>Agile Methodologies:</strong> Experience working in Agile environments, using tools like Jira, Trello, or Asana.</li>\n<li><strong>Testing:</strong> Experience with automated testing frameworks and tools (e.g., Selenium, JUnit, PyTest).</li>\n<li><strong>Communication:</strong> Excellent communication and collaboration skills, with the ability to work effectively in a team environment.</li>\n</ul>\n<h3>What We Offer:</h3>\n<ul>\n<li><strong>Competitive Salary &amp; Benefits:</strong> Including [healthcare, retirement plans, paid time off, etc.].</li>\n<li><strong>Flexible Work Environment:</strong> [Remote, hybrid, or on-site work options].</li>\n<li><strong>Growth &amp; Development:</strong> Opportunities for professional growth and continuous learning.</li>\n<li><strong>Innovative Culture:</strong> A collaborative and supportive work environment where your ideas are valued.</li>\n<li><strong>Tech Stack:</strong> Work with the latest technologies and tools in the industry.</li>\n<li><strong>Work-Life Balance:</strong> We promote a healthy work-life balance with flexible hours and a focus on well-being.</li>\n</ul>\n<hr>\n<h3>How to Apply:</h3>\n<p>To apply, please submit your resume, a cover letter, and any relevant work samples or GitHub repositories to [email address or application portal]. We look forward to learning more about you and how you can contribute to our team.</p>",
+  "jobPostAddress": "pune india",
+  "jobPostSkill": [
+    "javascript"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 0,
+  "jobPostMaxSalary": 0,
+  "jobPostMode": "onsite",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "none",
+  "jobPostVacancies": 1,
+  "createdAt": {
+    "$date": "2024-10-14T03:23:26.514Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-14T03:23:26.514Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "670c902ba074339963bb34a6"
+  },
+  "jobPostName": "Software Engineer",
+  "jobPostDescription": "<p>wetstsf</p>",
+  "jobPostAddress": "pune india",
+  "jobPostSkill": [
+    "india",
+    "javascript"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 0,
+  "jobPostMaxSalary": 0,
+  "jobPostMode": "onsite",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "none",
+  "jobPostVacancies": 1,
+  "createdAt": {
+    "$date": "2024-10-14T03:29:47.236Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-14T03:29:47.236Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "670c91b0a074339963bb34ab"
+  },
+  "jobPostName": "Software Engineer",
+  "jobPostDescription": "<p>sdfsfsfsfs</p>",
+  "jobPostAddress": "sfdfsfssf",
+  "jobPostSkill": [
+    "sfsfsf",
+    "sfsfsfs"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 0,
+  "jobPostMaxSalary": 0,
+  "jobPostMode": "onsite",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "none",
+  "jobPostVacancies": 1,
+  "createdAt": {
+    "$date": "2024-10-14T03:36:16.762Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-14T03:36:16.762Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "670c974aa074339963bb34b9"
+  },
+  "jobPostName": "Software Engineer",
+  "jobPostDescription": "<p>asfsf</p>",
+  "jobPostAddress": "sff",
+  "jobPostSkill": [
+    "sff"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 0,
+  "jobPostMaxSalary": 0,
+  "jobPostMode": "onsite",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "none",
+  "jobPostVacancies": 1,
+  "createdAt": {
+    "$date": "2024-10-14T04:00:10.699Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-14T04:00:10.699Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "670ca4f5a074339963bb36bd"
+  },
+  "jobPostName": "Software Engineer",
+  "jobPostDescription": "<h4><strong>Job Description</strong></h4>\n<p>We are looking for a highly ckv;snfv.nsf.nsfg.sdgfskilled <strong>Software Engineer</strong> to join our dynamic team. The ideal candidate is passionate about building robust, scalable, and high-performance software solutions. As a Software Engineer, you will collaborate with cross-functional teams to design, develop, and maintain innovative software products that will have a significant impact on our business.</p>\n<h4><strong>Key Responsibilities:</strong></h4>\n<ul>\n<li><strong>Design, Develop, and Maintain Software</strong>: Develop high-quality software solutions by applying best practices in coding, testing, and deployment.</li>\n<li><strong>Collaborate with Teams</strong>: Work closely with other engineers, designers, and product managers to define and refine project requirements and specifications.</li>\n<li><strong>Write Efficient Code</strong>: Ensure clean, maintainable, and scalable code while adhering to industry standards and guidelines.</li>\n<li><strong>Troubleshoot and Debug</strong>: Identify, investigate, and resolve software defects and performance issues to maintain a high level of product quality.</li>\n<li><strong>Continuous Learning</strong>: Stay updated on emerging technologies, industry trends, and best practices in software development.</li>\n<li><strong>Documentation</strong>: Write technical documentation for software projects, including code comments, user guides, and system documentation.</li>\n</ul>\n<h4><strong>Requirements:</strong></h4>\n<ul>\n<li><strong>Bachelor&rsquo;s degree</strong> in Computer Science, Software Engineering, or related field (or equivalent experience).</li>\n<li><strong>Proven experience</strong> (X+ years) as a Software Engineer or similar role.</li>\n<li>Proficiency in at least one modern programming language, such as <strong>Java, Python, C++, JavaScript, or Ruby</strong>.</li>\n<li>Strong understanding of <strong>data structures, algorithms, and software engineering principles</strong>.</li>\n<li>Familiarity with <strong>software development frameworks</strong> and libraries (e.g., React, Angular, Node.js, Django).</li>\n<li>Experience with version control systems such as <strong>Git</strong>.</li>\n<li>Hands-on experience with <strong>RESTful APIs, microservices architecture</strong>, and <strong>database management</strong> (SQL and NoSQL).</li>\n<li>Experience with <strong>Agile development methodologies</strong> (e.g., Scrum, Kanban).</li>\n<li>Strong problem-solving skills and a keen eye for detail.</li>\n<li>Ability to work effectively in a collaborative team environment and communicate technical concepts clearly.</li>\n<li><strong>Optional</strong>: Familiarity with <strong>cloud platforms</strong> (AWS, Azure, Google Cloud) and <strong>containerization</strong> technologies like <strong>Docker</strong> is a plus.</li>\n</ul>\n<h4><strong>Preferred Skills:</strong></h4>\n<ul>\n<li>Experience with <strong>DevOps practices</strong>, CI/CD pipelines, and automated testing.</li>\n<li>Knowledge of <strong>security best practices</strong> in software development.</li>\n<li>Familiarity with front-end frameworks such as <strong>React, Vue.js, or Angular</strong>.</li>\n<li>Experience with <strong>mobile app development</strong> or <strong>machine learning</strong> is a plus.</li>\n<li><strong>Open-source contributions</strong> or personal projects are a plus.</li>\n</ul>\n<h4><strong>Benefits:</strong></h4>\n<ul>\n<li>Competitive salary and performance-based bonuses.</li>\n<li>Flexible work hours and remote work options.</li>\n<li>Comprehensive health, dental, and vision insurance.</li>\n<li>Professional development and training opportunities.</li>\n<li>[Additional Benefits such as 401(k), paid time off, gym membership, etc.]</li>\n</ul>",
+  "jobPostAddress": "pune india",
+  "jobPostSkill": [
+    "JS",
+    "NODE"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 0,
+  "jobPostMaxSalary": 0,
+  "jobPostMode": "onsite",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "none",
+  "jobPostVacancies": 1,
+  "createdAt": {
+    "$date": "2024-10-14T04:58:29.198Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-14T05:29:13.933Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "670cca1d623604b9babd4fce"
+  },
+  "jobPostName": "Software Engineer",
+  "jobPostDescription": "<ol>\n<li style=\"text-align: justify;\"><strong>dfsgdgdg</strong></li>\n</ol>",
+  "jobPostAddress": "fsfsfd",
+  "jobPostSkill": [
+    "sdfsfsf"
+  ],
+  "jobPostCompany": {
+    "$oid": "670cc99f623604b9babd4fba"
+  },
+  "jobPostType": "parttime",
+  "jobPostMinSalary": 0,
+  "jobPostMaxSalary": 3000,
+  "jobPostMode": "remote",
+  "jobPostLevel": "mid-level",
+  "jobPostQualification": "none",
+  "jobPostVacancies": 1,
+  "createdAt": {
+    "$date": "2024-10-14T07:37:01.833Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-14T07:37:47.924Z"
+  },
+  "__v": 0,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "670cd3737af12758d0655524"
+  },
+  "jobPostName": "Software Engineer",
+  "jobPostDescription": "<h3><strong>Job Overview:</strong></h3>\n<p>We are looking for a talented and enthusiastic Software Engineer to join our development team. As a Software Engineer, ysdfgdshgfg gd'[fptc,ewtc5sdmngadey ou will design, develop, and maintain software applications that solve complex business problems and contribute to the company&rsquo;s success. You will work closely with other engineers, product managers, designers, and stakeholders to deliver high-quality, scalable solutions.</p>\n<hr>\n<h3><strong>Key Responsibilities:</strong></h3>\n<ul>\n<li><strong>Software Development:</strong> Design, implement, and test software solutions that meet business requirements using modern programming languages, frameworks, and tools (e.g., Python, Java, JavaScript, Ruby, C#, etc.).</li>\n<li><strong>Code Review &amp; Quality Assurance:</strong> Participate in peer code reviews, ensure code quality, and adhere to coding standards and best practices.</li>\n<li><strong>Collaboration:</strong> Work closely with cross-functional teams (product, design, operations, etc.) to define technical requirements, understand user needs, and implement robust solutions.</li>\n<li><strong>Problem Solving:</strong> Analyze and troubleshoot software defects, performance issues, and bugs; apply innovative solutions to complex technical problems.</li>\n<li><strong>Software Architecture:</strong> Help design and maintain scalable and maintainable software architectures. Contribute to technical design and system architecture discussions.</li>\n<li><strong>Documentation:</strong> Write clear and maintainable documentation for software features, system architecture, and APIs to ensure knowledge sharing within the team.</li>\n<li><strong>Continuous Learning:</strong> Stay up-to-date with industry trends, new technologies, and best practices, and apply them to your work.</li>\n<li><strong>Deployment &amp; Monitoring:</strong> Assist with the deployment of applications, monitor system performance, and ensure the system operates smoothly in production environments.</li>\n<li><strong>Mentorship (optional):</strong> Provide guidance and mentorship to junior engineers, helping them improve their technical skills and grow within the team.</li>\n</ul>\n<hr>\n<h3><strong>Required Skills and Qualifications:</strong></h3>\n<ul>\n<li><strong>Education:</strong> Bachelor&rsquo;s degree in Computer Science, Software Engineering, or a related field (or equivalent practical experience).</li>\n<li><strong>Programming Languages:</strong> Proficiency in at least one or more programming languages (e.g., Python, Java, C++, JavaScript, Go, etc.).</li>\n<li><strong>Software Development Lifecycle:</strong> Experience with all phases of software development from requirements gathering to design, implementation, testing, and maintenance.</li>\n<li><strong>Version Control:</strong> Experience with version control systems (e.g., Git, GitHub, GitLab, Bitbucket).</li>\n<li><strong>Problem Solving:</strong> Strong problem-solving skills and ability to debug, troubleshoot, and optimize software applications.</li>\n<li><strong>Database Management:</strong> Knowledge of relational databases (e.g., MySQL, PostgreSQL) or NoSQL databases (e.g., MongoDB, Cassandra).</li>\n<li><strong>Web Development:</strong> Experience with web technologies (e.g., HTML, CSS, JavaScript, RESTful APIs, GraphQL).</li>\n<li><strong>Cloud &amp; Deployment:</strong> Experience with cloud platforms (e.g., AWS, Google Cloud, Azure) and containerization technologies (e.g., Docker, Kubernetes) is a plus.</li>\n<li><strong>Testing:</strong> Familiarity with unit testing, integration testing, and test-driven development (TDD) practices.</li>\n<li><strong>Agile Methodology:</strong> Experience working in Agile development environments, using tools like Jira, Confluence, or Trello.</li>\n</ul>\n<hr>\n<h3><strong>Preferred Qualifications:</strong></h3>\n<ul>\n<li><strong>Frameworks &amp; Tools:</strong> Familiarity with popular development frameworks and libraries (e.g., React, Angular, Django, Spring, etc.).</li>\n<li><strong>DevOps:</strong> Experience with CI/CD pipelines and automation tools.</li>\n<li><strong>Security:</strong> Understanding of software security best practices and protocols.</li>\n<li><strong>Mobile Development:</strong> Experience with mobile application development (e.g., iOS/Android or cross-platform frameworks like Flutter or React Native).</li>\n<li><strong>Team Leadership:</strong> Experience in leading projects or teams, including mentoring junior engineers.</li>\n</ul>\n<hr>\n<h3><strong>Soft Skills:</strong></h3>\n<ul>\n<li><strong>Communication:</strong> Strong written and verbal communication skills to collaborate effectively with stakeholders and other team members.</li>\n<li><strong>Adaptability:</strong> Ability to quickly learn new technologies and adapt to changing requirements in a fast-paced environment.</li>\n<li><strong>Attention to Detail:</strong> High attention to detail and a passion for delivering quality work.</li>\n<li><strong>Collaboration:</strong> Ability to work well within a team, as well as independently when necessary.</li>\n<li><strong>Time Management:</strong> Strong organizational skills and the ability to manage multiple tasks simultaneously.</li>\n</ul>\n<hr>\n<h3><strong>Benefits (Optional):</strong></h3>\n<ul>\n<li>Competitive salary and performance bonuses</li>\n<li>Health, dental, and vision insurance</li>\n<li>Retirement plan (e.g., 401(k) or pension)</li>\n<li>Flexible work hours and remote work options</li>\n<li>Paid time off (PTO) and holidays</li>\n<li>Professional development and certification reimbursement</li>\n<li>Wellness programs and gym memberships</li>\n<li>Team-building events and social activities</li>\n</ul>\n<hr>\n<h3><strong>How to Apply:</strong></h3>\n<p>If you're passionate about software development and eager to work in a collaborative and innovative environment, we'd love to hear from you! Please submit your resume, cover letter, and portfolio (if applicable) to [Insert Application Email or Link].</p>",
+  "jobPostAddress": "pune india",
+  "jobPostSkill": [
+    "javacvafsfsf"
+  ],
+  "jobPostCompany": {
+    "$oid": "66fb9ae7d3b12c227755aba3"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 0,
+  "jobPostMaxSalary": 0,
+  "jobPostMode": "onsite",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "none",
+  "jobPostVacancies": 1,
+  "createdAt": {
+    "$date": "2024-10-14T08:16:51.354Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-28T06:03:17.062Z"
+  },
+  "__v": 0,
+  "isActive": true,
+  "isActivate": true
+},
+{
+  "_id": {
+    "$oid": "670cd4707af12758d06555c7"
+  },
+  "jobPostName": "Software Engineer fwam,d",
+  "jobPostDescription": "<p>sdfvsd'lkf ;dsgvm, jlwaefa</p>",
+  "jobPostAddress": "SAGDASDSB EAQ",
+  "jobPostSkill": [
+    "SVGVDSFGDSGSD"
+  ],
+  "jobPostCompany": {
+    "$oid": "6703cb67c3c66301aa5ec6f5"
+  },
+  "jobPostType": "fulltime",
+  "jobPostMinSalary": 0,
+  "jobPostMaxSalary": 0,
+  "jobPostMode": "onsite",
+  "jobPostLevel": "entry-level",
+  "jobPostQualification": "none",
+  "jobPostVacancies": 1,
+  "createdAt": {
+    "$date": "2024-10-14T08:21:04.036Z"
+  },
+  "updatedAt": {
+    "$date": "2024-10-14T08:21:04.036Z"
+  },
+  "__v": 0,
+  "isActivate": true
+}]

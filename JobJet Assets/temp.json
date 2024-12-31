@@ -1,0 +1,300 @@
+[
+  {
+      "jobPostName": "Frontend Developer",
+      "jobPostDescription": "We are seeking a skilled Frontend Developer to join our team and create engaging user interfaces.",
+      "jobPostAddress": "234 Code St, San Jose, CA",
+      "jobPostSkill": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 75000,
+      "jobPostMaxSalary": 95000,
+      "jobPostMode": "hybrid",
+      "jobPostLevel": "entry-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 3,
+      "createdAt": {
+          "$date": "2024-10-11T10:00:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-11T10:00:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "Systems Analyst",
+      "jobPostDescription": "We are looking for a Systems Analyst to help improve our IT systems and processes.",
+      "jobPostAddress": "567 Tech Ave, Boston, MA",
+      "jobPostSkill": [
+          "Analysis",
+          "SQL",
+          "Problem Solving"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 70000,
+      "jobPostMaxSalary": 90000,
+      "jobPostMode": "remote",
+      "jobPostLevel": "mid-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 2,
+      "createdAt": {
+          "$date": "2024-10-12T10:30:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-12T10:30:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "Network Administrator",
+      "jobPostDescription": "We are looking for a Network Administrator to maintain and optimize our network infrastructure.",
+      "jobPostAddress": "890 Network Rd, Denver, CO",
+      "jobPostSkill": [
+          "Networking",
+          "Firewall",
+          "Troubleshooting"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 65000,
+      "jobPostMaxSalary": 85000,
+      "jobPostMode": "on-site",
+      "jobPostLevel": "entry-level",
+      "jobPostQualification": "associate's",
+      "jobPostVacancies": 4,
+      "createdAt": {
+          "$date": "2024-10-13T11:00:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-13T11:00:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "Mobile App Developer",
+      "jobPostDescription": "Join our team as a Mobile App Developer and help us build innovative mobile applications.",
+      "jobPostAddress": "345 Mobile Way, Miami, FL",
+      "jobPostSkill": [
+          "React Native",
+          "iOS",
+          "Android"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 80000,
+      "jobPostMaxSalary": 110000,
+      "jobPostMode": "hybrid",
+      "jobPostLevel": "mid-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 3,
+      "createdAt": {
+          "$date": "2024-10-14T10:15:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-14T10:15:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "Cloud Engineer",
+      "jobPostDescription": "We are seeking a Cloud Engineer to design and manage our cloud infrastructure.",
+      "jobPostAddress": "678 Cloud St, Seattle, WA",
+      "jobPostSkill": [
+          "AWS",
+          "Azure",
+          "DevOps"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 90000,
+      "jobPostMaxSalary": 130000,
+      "jobPostMode": "remote",
+      "jobPostLevel": "senior-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 2,
+      "createdAt": {
+          "$date": "2024-10-15T12:00:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-15T12:00:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "Content Writer",
+      "jobPostDescription": "We are looking for a Content Writer to produce high-quality content for our website and marketing materials.",
+      "jobPostAddress": "789 Content Rd, Atlanta, GA",
+      "jobPostSkill": [
+          "Writing",
+          "SEO",
+          "Research"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "parttime",
+      "jobPostMinSalary": 30000,
+      "jobPostMaxSalary": 50000,
+      "jobPostMode": "remote",
+      "jobPostLevel": "entry-level",
+      "jobPostQualification": "associate's",
+      "jobPostVacancies": 5,
+      "createdAt": {
+          "$date": "2024-10-16T11:30:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-16T11:30:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "SEO Specialist",
+      "jobPostDescription": "Join us as an SEO Specialist to optimize our website and improve our search rankings.",
+      "jobPostAddress": "321 SEO Blvd, San Diego, CA",
+      "jobPostSkill": [
+          "SEO",
+          "Analytics",
+          "Keyword Research"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 60000,
+      "jobPostMaxSalary": 80000,
+      "jobPostMode": "on-site",
+      "jobPostLevel": "junior-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 4,
+      "createdAt": {
+          "$date": "2024-10-17T10:45:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-17T10:45:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "Business Analyst",
+      "jobPostDescription": "We are looking for a Business Analyst to analyze business needs and recommend solutions.",
+      "jobPostAddress": "234 Business St, Dallas, TX",
+      "jobPostSkill": [
+          "Business Analysis",
+          "Data Visualization",
+          "SQL"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 75000,
+      "jobPostMaxSalary": 95000,
+      "jobPostMode": "remote",
+      "jobPostLevel": "mid-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 3,
+      "createdAt": {
+          "$date": "2024-10-18T09:00:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-18T09:00:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "HR Manager",
+      "jobPostDescription": "We are seeking an HR Manager to oversee recruitment and employee relations.",
+      "jobPostAddress": "456 HR Blvd, Portland, OR",
+      "jobPostSkill": [
+          "Recruitment",
+          "Employee Relations",
+          "Performance Management"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 80000,
+      "jobPostMaxSalary": 110000,
+      "jobPostMode": "hybrid",
+      "jobPostLevel": "senior-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 1,
+      "createdAt": {
+          "$date": "2024-10-19T10:15:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-19T10:15:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "Quality Assurance Engineer",
+      "jobPostDescription": "Join our team as a Quality Assurance Engineer to ensure the quality of our products.",
+      "jobPostAddress": "678 QA St, Raleigh, NC",
+      "jobPostSkill": [
+          "Testing",
+          "Automation",
+          "QA Processes"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 70000,
+      "jobPostMaxSalary": 90000,
+      "jobPostMode": "on-site",
+      "jobPostLevel": "mid-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 2,
+      "createdAt": {
+          "$date": "2024-10-20T11:00:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-20T11:00:00.111Z"
+      },
+      "__v": 0
+  },
+  {
+      "jobPostName": "Product Designer",
+      "jobPostDescription": "We are looking for a Product Designer to create user-centered designs for our products.",
+      "jobPostAddress": "123 Design St, Nashville, TN",
+      "jobPostSkill": [
+          "Design Thinking",
+          "Prototyping",
+          "UX Research"
+      ],
+      "jobPostCompany": {
+          "$oid": "66fb9ae7d3b12c227755aba3"
+      },
+      "jobPostType": "fulltime",
+      "jobPostMinSalary": 85000,
+      "jobPostMaxSalary": 110000,
+      "jobPostMode": "remote",
+      "jobPostLevel": "senior-level",
+      "jobPostQualification": "bachelor's",
+      "jobPostVacancies": 2,
+      "createdAt": {
+          "$date": "2024-10-21T10:00:00.111Z"
+      },
+      "updatedAt": {
+          "$date": "2024-10-21T10:00:00.111Z"
+      },
+      "__v": 0
+  }
+]
