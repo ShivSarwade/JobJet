@@ -1,6 +1,6 @@
 # JobJet
 
-JobJet is a job search and application platform designed to streamline the process of finding and applying for jobs. It connects job seekers with top companies and offers a seamless, user-friendly experience for both applicants and employers.
+JobJet is a job search and application platform designed to streamline the process of finding and applying for jobs. It connects job seekers with top companies and offers a seamless, user-friendly [...]
 
 ## Features
 
@@ -60,17 +60,24 @@ Before you begin, ensure you have the following installed:
     # JWT secret key (used for authentication)
     JWT_SECRET=your_jwt_secret_key_here
 
+    # Cloudinary API details
+    CLOUDINARY_API_KEY=your_cloudinary_api_key_here
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret_here
+
+    # Database name
+    DATABASE_NAME=your_database_name_here
+
     # Port for the backend server
-    PORT=5000
+    PORT=your_port_here
     ```
 
     **Frontend `.env` Example:**
     If you're using environment variables for your frontend (like the backend API URL), create a `.env` in the frontend directory:
     ```bash
-    REACT_APP_API_URL=http://localhost:5000
+    REACT_APP_API_URL=your_backend_api_url_here
     ```
 
-    Note: Replace `your_mongo_connection_string_here` and `your_jwt_secret_key_here` with the actual values you are using for your MongoDB URI and JWT secret key.
+    Note: Replace `your_mongo_connection_string_here`, `your_jwt_secret_key_here`, `your_cloudinary_api_key_here`, `your_cloudinary_api_secret_here`, `your_database_name_here`, and `your_port_here` with the actual values you are using.
 
 4. **Run the Backend Server:**
 
@@ -79,7 +86,7 @@ Before you begin, ensure you have the following installed:
     cd backend
     npm run start
     ```
-    The backend will start on `http://localhost:5000`.
+    The backend will start on the port specified in your environment variables.
 
 5. **Run the Frontend Application:**
 
@@ -88,12 +95,9 @@ Before you begin, ensure you have the following installed:
     cd frontend
     npm run dev
     ```
-    This will start the frontend application on `http://localhost:3000`.
+    This will start the frontend application on the port specified in your environment variables.
 
-Your application should now be running locally at:
-
-- Frontend: `http://localhost:3000`
-- Backend: `http://localhost:5000`
+Your application should now be running locally at the URLs specified in your environment variables.
 
 ### Key Notes:
 - **Code Blocks**: Code blocks (like terminal commands or configuration examples) are formatted correctly inside triple backticks (```).
